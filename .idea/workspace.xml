@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f1f085-7f72-44ef-886b-983eaf84e7fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PRO_JANAPNESS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jtest官网资料下载/EveryMonth_exams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jtest官网资料下载/EveryMonth_exams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jtest官网资料下载/ThisMonth_exams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jtest官网资料下载/ThisMonth_exams.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

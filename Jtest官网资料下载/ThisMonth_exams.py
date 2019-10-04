@@ -39,7 +39,8 @@ def parse_one_page(html):
         response = requests.get(i2)
         print(response.status_code)
         if response.status_code == 200:
-            with open("/home/w/ForJtest/%s" % i1) as f:  # 切片之后优化了命名
+            with open("/home/w/ForJtest/%s .pdf" % str(i1),
+                      "wb") as f:  # 切片之后优化了命名
                 f.write(response.content)
                 f.close()
         else:
