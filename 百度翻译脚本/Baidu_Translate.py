@@ -1,13 +1,10 @@
 #! -*- coding:utf-8 -*-
-import datetime
-import time
+
 
 import pymysql
 import requests
-from lxml import etree
-from selenium import webdriver
 
-# 把find_elements 改为　find_element
+
 def getUrl():
 
     one_url = 'https://fanyi.baidu.com/translate?aldtype=16047&query=+#jp/zh/'
