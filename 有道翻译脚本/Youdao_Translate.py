@@ -14,10 +14,8 @@ from word_coll import w_l
 
 def get_one_page(url):
 
-    options = webdriver.ChromeOptions()
-    options.add_argument("--no-sandbox")
 
-    driver = webdriver.Chrome("/usr/bin/chromedriver", chrome_options=options)
+
     driver.get(url)
     html = driver.page_source
     return html
@@ -67,16 +65,22 @@ def insertDB(content):
 
 if __name__ == '__main__':
     for jiaming_W in w_l:
+        options = webdriver.ChromeOptions()
+        options.add_argument("--no-sandbox")
+        driver = webdriver.Chrome("/usr/bin/chromedriver", chrome_options=options)
+
         one_url = 'http://www.youdao.com/w/jap/'+ jiaming_W+'/#keyfrom=dict2.index'
 
         f_url = one_url+ jiaming_W
 
 
         html = get_one_page(f_url)
-        time.sleep(2)
+        time.sleep(1)
 
         content = parse_html(html)
-        time.sleep(2)
+        driver.quit()
+
+        time.sleep(1)
         insertDB(content)
         print(content)
 
