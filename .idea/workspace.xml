@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="73f1f085-7f72-44ef-886b-983eaf84e7fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/帝京日语/ZILIAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/帝京日语/ZILIAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/百度翻译脚本/Baidu_Translate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/百度翻译脚本/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/百度翻译脚本/word_coll.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +27,7 @@
   <component name="ProjectId" id="1Rj478LO3QkLmRxbPC3aAxsJBFu" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Douban_PersonnlPs" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -38,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Baidu_Translate">
+  <component name="RunManager" selected="Python.Youdao_mysql">
     <configuration name="Baidu_Translate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PRO_JANAPNESS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +77,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jtest官网资料下载/EveryMonth_exams.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Youdao_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PRO_JANAPNESS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/有道翻译脚本/从mysql中导出的脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/有道翻译脚本/从mysql中导出的脚本/Youdao_mysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Youdao_mysql" />
         <item itemvalue="Python.Baidu_Translate" />
         <item itemvalue="Python.ZILIAO" />
         <item itemvalue="Python.s_link" />
