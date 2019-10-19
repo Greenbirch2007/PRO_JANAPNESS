@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-
+import pymysql
 import requests
 import re
 from lxml import etree
@@ -45,6 +45,18 @@ def parse_one_page(html):
         else:
             pass
 
+def insertDB(content):
+    connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='JP',
+                                 charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
+    cursor = connection.cursor()
+    try:
+        cursor.executemany('insert into OneFirm_toeic (Firm_toeic,link) values (%s,%s)', content)
+        connection.commit()
+        connection.close()
+        print('向MySQL中添加数据成功！')
+    except TypeError :
+        pass
 
 if __name__ == "__main__":
     url = 'http://j-test.jp/page_id2066'
@@ -53,6 +65,7 @@ if __name__ == "__main__":
     parse_one_page(html)
 
     print("下载完成")
+
 
 
 

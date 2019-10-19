@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73f1f085-7f72-44ef-886b-983eaf84e7fc" name="Default Changelist" comment="" />
+    <list default="true" id="73f1f085-7f72-44ef-886b-983eaf84e7fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jtest官网资料下载/EveryMonth_exams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jtest官网资料下载/EveryMonth_exams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/有道翻译脚本/jtet a_d(考点整理)/D级考点整理.txt" beforeDir="false" afterPath="$PROJECT_DIR$/有道翻译脚本/jtet a_d(考点整理)/D级考点整理.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/有道翻译脚本/jtet a_d(考点整理)/D级考点整理.xls" beforeDir="false" afterPath="$PROJECT_DIR$/有道翻译脚本/jtet a_d(考点整理)/D级考点整理.xls" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +26,7 @@
   <component name="ProjectId" id="1Rj478LO3QkLmRxbPC3aAxsJBFu" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yahoo_JAPAN_spiders" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -36,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Youdao_Translate">
+  <component name="RunManager" selected="Python.j_sentenses">
     <configuration name="Baidu_Translate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PRO_JANAPNESS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="j_sentenses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PRO_JANAPNESS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/帝京日语" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/日本語の例文" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/帝京日语/s_link.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/日本語の例文/j_sentenses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.j_sentenses" />
         <item itemvalue="Python.Youdao_Translate" />
         <item itemvalue="Python.Youdao_mysql" />
         <item itemvalue="Python.Baidu_Translate" />
         <item itemvalue="Python.ZILIAO" />
-        <item itemvalue="Python.s_link" />
       </list>
     </recent_temporary>
   </component>
